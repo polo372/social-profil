@@ -1,0 +1,45 @@
+@import 'reset.css';
+@import 'typo.css';
+@import 'component.css';
+@layer reset, style, typo, component;
+:root{
+    --bg-color: #141414;
+    --main-color: #1F1F1F;
+}
+body{
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+}
+main{
+    background-color: var(--main-color);
+    width: 327px;
+    height: 579px;
+    border-radius: 10px;
+    padding: 24px;
+}
+img{
+    border-radius: 50px;
+    margin: 0 auto 24px auto;
+}
+.title{
+    margin: 0 auto 24px auto;
+    justify-items: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 375px) and (max-width: 768px){
+    
+}
+@media (min-width: 769px){
+
+}

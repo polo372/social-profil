@@ -1,0 +1,42 @@
+@font-face {
+    font-family: inter_bold1;
+    src: url(/assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: inter_bold2;
+    src: url(/assets/fonts/static/Inter-Regular.ttf);
+}
+body{
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+:root{
+    --text-color: hsl(0, 0%, 100%);
+    --localisation-color: hsl(75, 94%, 57%);
+}
+.name{
+    font-family: inter_bold1, sans-serif;
+    font-size: 24px;
+    color: var(--text-color);
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+.localisation{
+    font-family: inter_bold2, sans-serif;
+    color: var(--localisation-color);
+    font-size: 14px;
+    font-weight: 700;
+}
+.bio{
+    font-family: inter_bold2, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 24px;
+}
+button{
+    color: var(--text-color);
+    font-family: inter_bold2, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}

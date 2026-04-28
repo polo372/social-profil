@@ -1,0 +1,17 @@
+:root{
+    --btn-color: #333333;
+    --text-color: hsl(0, 0%, 100%);
+    --localisation-color: hsl(75, 94%, 57%);
+
+    }
+button{
+    background-color: var(--btn-color);
+    border: none;
+    height: 45px;
+    width: 304px;
+    border-radius: 10px;
+}
+button:hover{
+            background-color: var(--localisation-color);
+            color: var(--btn-color)
+        }
