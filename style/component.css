@@ -7,10 +7,8 @@
 button{
     background-color: var(--btn-color);
     border: none;
-    height: 2.813em;
+    height: 2.813rem;
     width: 100%;
-    min-width: 17.438rem;
-    max-width: 19rem;
     border-radius: 10px;
 }
 button:focus-within,
