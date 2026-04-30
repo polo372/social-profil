@@ -34,7 +34,7 @@ body{
     color: var(--text-color);
     margin-bottom: 24px;
 }
-button{
+nav > a{
     color: var(--text-color);
     font-family: inter_bold2, sans-serif;
     font-size: 0.875rem;

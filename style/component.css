@@ -4,15 +4,19 @@
     --localisation-color: hsl(75, 94%, 57%);
 
     }
-button{
+nav > a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
     background-color: var(--btn-color);
     border: none;
     height: 2.813rem;
+    line-height: 2.813rem;
     width: 100%;
     border-radius: 10px;
 }
-button:focus-within,
-button:hover{
+a:focus-within,
+a:hover{
             background-color: var(--localisation-color);
             color: var(--btn-color);
             cursor: pointer;
