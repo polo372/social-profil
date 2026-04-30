@@ -7,11 +7,15 @@
 button{
     background-color: var(--btn-color);
     border: none;
-    height: 45px;
-    width: 304px;
+    height: 2.813em;
+    width: 100%;
+    min-width: 17.438rem;
+    max-width: 19rem;
     border-radius: 10px;
 }
+button:focus-within,
 button:hover{
             background-color: var(--localisation-color);
-            color: var(--btn-color)
+            color: var(--btn-color);
+            cursor: pointer;
         }
