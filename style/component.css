@@ -1,9 +1,4 @@
-:root{
-    --btn-color: #333333;
-    --text-color: hsl(0, 0%, 100%);
-    --localisation-color: hsl(75, 94%, 57%);
-
-    }
+@import 'variable.css';
 nav > a{
     display: block;
     text-decoration: none;

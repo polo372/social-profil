@@ -1,0 +1,7 @@
+:root{
+    --bg-color: #141414;
+    --main-color: #1F1F1F;
+    --btn-color: #333333;
+    --text-color: hsl(0, 0%, 100%);
+    --localisation-color: hsl(75, 94%, 57%);
+}

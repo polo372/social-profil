@@ -1,18 +1,15 @@
+@import 'variable.css';
 @font-face {
-    font-family: inter_bold1;
+    font-family: inter_bold1 sans-serif;
     src: url(/assets/fonts/static/Inter-Bold.ttf);
 }
 @font-face {
-    font-family: inter_bold2;
+    font-family: inter_bold2 sans-serif;
     src: url(/assets/fonts/static/Inter-Regular.ttf);
 }
 body{
     line-height: 150%;
     letter-spacing: 0px;
-}
-:root{
-    --text-color: hsl(0, 0%, 100%);
-    --localisation-color: hsl(75, 94%, 57%);
 }
 .name{
     font-family: inter_bold1, sans-serif;
