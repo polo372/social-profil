@@ -17,29 +17,24 @@ body{
 .name{
     font-family: inter_bold1, sans-serif;
     font-size: 1.5rem;
-    color: var(--text-color);
     margin-bottom: 12px;
     font-weight: 400;
 }
-.localisation{
+.localisation, .bio, nav > a{
     font-family: inter_bold2, sans-serif;
-    color: var(--localisation-color);
     font-size: 0.875rem;
+}
+.localisation{
+    color: var(--localisation-color);
+    font-weight: 700;
+}
+nav > a{
     font-weight: 700;
 }
 .bio{
-    font-family: inter_bold2, sans-serif;
-    font-size: 0.875rem;
     font-weight: 400;
-    color: var(--text-color);
     margin-bottom: 24px;
 }
-nav > a{
-    color: var(--text-color);
-    font-family: inter_bold2, sans-serif;
-    font-size: 0.875rem;
-    font-weight: 700;
-}
-footer{
+.bio, .name, nav > a, footer {
     color: var(--text-color);
 }
