@@ -24,6 +24,8 @@ main{
 }
 img{
     border-radius: 50px;
+    height: 5.5rem;
+    width: 5.5rem;
 }
 .title, img{
     margin: 0 auto 24px auto;

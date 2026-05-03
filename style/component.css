@@ -15,7 +15,7 @@ nav > a{
     width: 100%;
     border-radius: 10px;
 }
-a:focus-within,
+a:focus,
 a:hover{
             background-color: var(--localisation-color);
             color: var(--btn-color);
