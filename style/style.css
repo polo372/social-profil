@@ -1,9 +1,7 @@
 @import 'reset.css';
-@import 'variable.css';
 @import 'typo.css';
 @import 'component.css';
 @layer reset, style, typo, component;
-
 
 body{
     background-color: var(--bg-color);

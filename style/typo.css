@@ -4,7 +4,7 @@
     src: url(/assets/fonts/static/Inter-Bold.ttf);
 }
 @font-face {
-    font-family: inter_bold2 sans-serif;
+    font-family: inter_regular sans-serif;
     src: url(/assets/fonts/static/Inter-Regular.ttf);
 }
 body{
@@ -18,7 +18,7 @@ body{
     font-weight: 400;
 }
 .localisation, .bio, nav > a{
-    font-family: inter_bold2, sans-serif;
+    font-family: inter_regular, sans-serif;
     font-size: 0.875rem;
 }
 .localisation{
